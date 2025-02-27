@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box">
+        <h1 class="Reg-title">Vibha Registration</h1>
+        <div class="form">
+            <form action="" class="form">
+                <label for="">First Name</label>
+                <input type="text" class="input-name" placeholder="Enter your first name" required>
+                <label for="">Last Name</label>
+                <input type="text" class="input-name" placeholder="Enter your last name" required>
+            </form>
+        </div>
+
+        <div class="options">
+            <div class="gender">
+            <p>Gender :</p>
+            <form class="gender-options">
+            <label><input type="radio" name="Gender" value="male">Male</label>
+            <label><input type="radio" name="Gender" value="male">Female</label>
+            <label><input type="radio" name="Gender" value="male">Others</label>
+            </form>
+        </div>
+
+        <div class="course">
+            <p>Course :</p>
+            <select name="course" title="Select your course">
+                <option value="btech">B-Tech</option>
+                <option value="mtech">M-Tech</option>
+                <option value="mba">MBA</option>
+            </select>
+        </div>
+        </div>
+
+        <div class="select-year">
+            <div class="years">
+                <p>Year :</p>
+                <form class="year-option">
+                <label><input type="radio" name="year">I</label>
+                <label><input type="radio" name="year">II</label>
+                <label><input type="radio" name="year">III</label>
+                <label><input type="radio" name="year">IV</label>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="Branch-option">
+            <p>Branch :</p>
+            <select name="branch" title="Select your Branch" class="branch">
+                <option value="cse">cse</option>
+                <option value="ece">ece</option>
+                <option value="eee">eee</option>
+                <option value="mech">Mech</option>
+                <option value="civil">Civil</option>
+                <option value="it">IT</option>
+            </select>
+        </div>
+
+        <div class="events">
+            <p>Events Interested in Participation :</p>
+            <form class="event-options">
+                <label><input type="checkbox" name="event">Dance</label>
+                <label><input type="checkbox" name="event">Theatre</label>
+                <label><input type="checkbox" name="event">Music</label>
+                <label><input type="checkbox" name="event">singing</label>
+                <label><input type="checkbox" name="event">standup comedy</label>
+            </form>
+        </div>
+
+        <div class="group-parti">
+            <p>Performing :</p>
+            <form class="group-options">
+                <label><input type="radio" name="performing">Solo</label>
+                <label><input type="radio" name="performing">Group</label>
+            </form>
+        </div>
+
+        <div class="num-of">
+            <label>Group of (At least 2, not more than 5):</label>
+            <input type="number" name="group_size" min="2" max="5" title="Enter the number of participants">
+        </div>
+
+        <div class="button-option">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+
+    </div>
+    
+</body>
+<script src="script.js"></script>
+</html>
