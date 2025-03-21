@@ -6,7 +6,7 @@ pipeline {
 stage('clone') {  // Stage for building your project
             steps {
                 // echo 'Building the project...'
-                git 'https://github.com/gollapallydeepthi/devops__.git'
+                git 'https://github.com/gani-ganesh-20/Registration-form.git'
                 // Add build commands here (e.g., mvn, npm, etc.)
             }
         }
